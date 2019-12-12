@@ -15,6 +15,7 @@ class costing_pricereview extends CI_Controller {
         $this->load->model('model_user');
         $this->load->model('model_item');
         $this->load->model('model_rate');
+        $this->load->model('model_costing_review');
     }
 
     function view_pricereview() {

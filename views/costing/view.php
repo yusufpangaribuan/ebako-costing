@@ -64,8 +64,8 @@
 				                    <?php
 						                if (in_array('view_price_list', $accessmenu)) {
 						                	echo '<a href="costing_pricelist/view_pricelist" target="blank"><button class="btn btn-labeled fa fa-search btn-primary"> View Price List</button> </a>';
-                                                                        echo '<a href="costing_pricereview/view_pricereview" target="blank"><button class="btn btn-labeled fa fa-search btn-primary"> View Price Review</button> </a><br/>';
-						                	
+											echo '<a href="costing_pricereview/view_pricereview" target="blank"><button class="btn btn-labeled fa fa-search btn-primary"> Costing Price Review</button> </a><br/>';
+											echo '<a href="costing_review/show_list" target="blank"><button class="btn btn-labeled fa fa-search btn-primary"> View Price Review</button> </a><br/>';
 						                }
 						            ?>
 				                </div>
